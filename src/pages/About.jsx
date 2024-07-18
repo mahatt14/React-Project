@@ -2,6 +2,8 @@ import React from 'react'
 import Footer from '../Components/Footer'
 import HeadlineCards from '../Components/HeadlineCards'
 
+
+
 function About() {
   return (
     <div>
@@ -102,14 +104,14 @@ function About() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gray-100 rounded-lg shadow-md p-6">
               <img
-                src="https://i.pinimg.com/236x/6a/81/6a/6a816ae4d89619bc368d119bef3f350f.jpg"
+                src="./images/Aglad.jpg"
                 alt="Team Member 1"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
               />
               <h3 className="text-xl font-bold text-gray-900 mb-2 flex justify-center">
-                John Doe
+                Abdullahi Abdi Hashi
               </h3>
-              <p className="text-gray-600 mb-4 flex justify-center">CEO</p>
+              <p className="text-gray-600 mb-4 flex justify-center">Group Leader</p>
               <p className="text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -119,14 +121,14 @@ function About() {
             </div>
             <div className="bg-gray-100 rounded-lg shadow-md p-6">
               <img
-                src="https://i.pinimg.com/236x/6a/81/6a/6a816ae4d89619bc368d119bef3f350f.jpg"
+                src="./images/suleyman.jpg"
                 alt="Team Member 2"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
               />
               <h3 className="text-xl font-bold text-gray-900 mb-2 flex justify-center">
-                Jane Smith
+                Suleiman Ali Abshir
               </h3>
-              <p className="text-gray-600 mb-4 flex justify-center">Manager</p>
+              <p className="text-gray-600 mb-4 flex justify-center">Member</p>
               <p className="text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -136,14 +138,14 @@ function About() {
             </div>
             <div className="bg-gray-100 rounded-lg shadow-md p-6">
               <img
-                src="https://i.pinimg.com/236x/6a/81/6a/6a816ae4d89619bc368d119bef3f350f.jpg"
+                src="./images/mahad.jpg"
                 alt="Team Member 3"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
               />
               <h3 className="text-xl font-bold text-gray-900 mb-2 flex justify-center">
-                Bob Johnson
+                Mahad Abdi Hussein
               </h3>
-              <p className="text-gray-600 mb-4 flex justify-center">Head Manager</p>
+              <p className="text-gray-600 mb-4 flex justify-center">Member</p>
               <p className="text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -151,6 +153,44 @@ function About() {
                 eget aliquam nisl nisl sit amet nisl.
               </p>
             </div>
+
+            <div className="bg-gray-100 rounded-lg shadow-md p-6">
+              <img
+                src="./images/Abdi.jpg"
+                alt="Team Member 1"
+                className="w-32 h-32 rounded-full mx-auto mb-4"
+              />
+              <h3 className="text-xl font-bold text-gray-900 mb-2 flex justify-center">
+                Abdifitax Mahad Ali 
+              </h3>
+              <p className="text-gray-600 mb-4 flex justify-center">Member</p>
+              <p className="text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                auctor, magna vel ultricies tincidunt, nisl nisl aliquam nisl,
+                eget aliquam nisl nisl sit amet nisl.
+              </p>
+            </div>
+
+            <div className="bg-gray-100 rounded-lg shadow-md p-6">
+              <img
+                src="./images/muno.jpg"
+                alt="Team Member 1"
+                className="w-32 h-32 rounded-full mx-auto mb-4"
+              />
+              <h3 className="text-xl font-bold text-gray-900 mb-2 flex justify-center">
+                Muno Bashiir Saciid
+              </h3>
+              <p className="text-gray-600 mb-4 flex justify-center">Member</p>
+              <p className="text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                auctor, magna vel ultricies tincidunt, nisl nisl aliquam nisl,
+                eget aliquam nisl nisl sit amet nisl.
+              </p>
+            </div>
+
+
           </div>
         </div>
       </div>
